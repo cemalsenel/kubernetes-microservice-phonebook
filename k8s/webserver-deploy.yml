@@ -15,7 +15,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - image: jamesclarusway/webserver
+      - image: jimmyshan/webserver
         name: webserver
         ports:
         - containerPort: 80
